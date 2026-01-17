@@ -1,4 +1,4 @@
-// A simple TCP Print Server for AsHospitality POS
+// A simple TCP Print Server for Ehospitality POS
 // This script listens for print jobs from the web app and forwards them to a network printer.
 //
 // How to run:
@@ -53,7 +53,7 @@ app.post('/print', (req, res) => {
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-  console.log(`🖨️ AsHospitality Print Server is running.`);
+  console.log(`🖨️ Ehospitality Print Server is running.`);
   console.log(`Listening for print jobs on http://localhost:${PORT}`);
   console.log('Ensure this computer and your printers are on the same network.');
 });
